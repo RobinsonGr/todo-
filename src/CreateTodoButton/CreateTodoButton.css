@@ -1,0 +1,25 @@
+.addTodo {
+    width: 6.0rem;
+    height: 6.0rem;
+    background-color: lightblue;
+    border: none;
+    color: #395B64;
+    font-size: 5rem;
+    box-shadow: 0 0 30px lightblue;
+    border-radius: 50%;
+    place-self: end;
+    margin-bottom: 40px;
+    margin-right: 20px;
+    transform: rotate(0);
+    transition: .3s ease;
+    cursor: pointer;
+    z-index: 1;
+
+}
+
+
+.addTodo:hover {
+    transform: rotate(224deg);
+
+  }
+
